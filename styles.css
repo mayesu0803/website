@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Sección de inicio */
+#inicio {
+    background-image: url('images/inicio-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 18px;
+}
+
+#inicio .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Sección de menú */
+#menu {
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+#menu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#menu p {
+    font-size: 16px;
+}
+
+/* Sección de reservas */
+#reservas {
+    background-color: #e0e0e0;
+    padding: 50px;
+}
+
+#reservas h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#reservas p {
+    font-size: 16px;
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+#contacto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    font-size: 16px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
